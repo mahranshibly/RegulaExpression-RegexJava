@@ -13,10 +13,5 @@ interface FuncInterface {
  
 // An abstract function 
  String abstractFunc(String str); 
-
- // A non-abstract (or default) function 
- default  void readFile() throws IOException{ 
-    System.out.println("..."); 
- } 
  
 } 
